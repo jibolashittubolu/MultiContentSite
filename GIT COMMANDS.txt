@@ -1,0 +1,52 @@
+git clone "write the http address of the repository"
+
+git push origin --delete <branch-name>
+
+git branch -d <branch-name>
+git branch -D <branch-name>
+
+
+git remote prune origin
+
+git init
+
+git init -b [branch name(use main mostly as branch name)]
+
+git status
+
+git add .
+
+
+git commit -m '[added whatever]'
+
+git checkout -b [new branch name ]
+
+git switch [existing branch name]
+
+git remote add origin [repository url]
+
+git remote rm [origin name]
+
+git remote -v
+
+git push -u origin [branch name]
+
+git clone [repository link]
+
+git clone --single-branch -b [branch name] [repository link]
+
+git push --set-upstream origin master
+
+
+git rm --cached [file name] -f
+
+git submodule add [path link/ url] [arbitrary name]
+
+/////////////
+Update a local clone with:
+
+git branch -m react-mini main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+

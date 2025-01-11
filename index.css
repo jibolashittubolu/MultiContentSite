@@ -1,0 +1,23 @@
+
+.first-section{
+    background-color: red;
+} 
+
+.abc{
+    background-color: lime;
+}
+ 
+#special-id-section{
+    background-color: aqua;
+}
+
+.footer-1{
+    background-color: yellow;
+}
+
+.footer-2{
+    background-color: magenta;
+    color: white;
+    font-size: 2rem;
+    text-align:center;
+}
